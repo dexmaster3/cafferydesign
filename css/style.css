@@ -8,6 +8,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/*********************************************************************************/
+/* USER ADDED                                                                    */
+/*********************************************************************************/
+
+.contact-form input, .contact-form textarea {
+	display:block;
+	width: 80%;
+}
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -689,7 +699,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('../images/img01.JPG');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -773,6 +783,8 @@
 		#header header
 		{
 			display: inline-block;
+			background: rgba(0, 0, 0, 0.35);
+			padding: 20px 50px;
 		}
 		
 		#header footer
@@ -862,6 +874,7 @@
 				-o-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+				background: rgba(0, 0, 0, 0.35);
 			}
 			
 				#nav > ul > li.active
